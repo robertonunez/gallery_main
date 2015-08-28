@@ -1,0 +1,453 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    height: inherit;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    color: white;
+}
+
+.footer-container {
+    color: white;
+}
+
+.main > aside {
+    color: black;
+}
+
+.header-container,
+.footer-container,
+.main > aside {
+    background-color: #e64a19;
+    border-top: 20px solid rgba(0, 0, 0, .25);
+}
+
+.title .text {
+    float: left;
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title .text {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+.title .text {
+    font-family: 'RobotoDraft', sans-serif;
+    font: 700 4em/1em 'RobotoDraft';
+    opacity: .87;
+}
+
+body {
+    background-color: #ECEFF1;
+}
+
+.mini {
+    font-family: 'RobotoDraft', sans-serif;
+    float: left;
+    position: relative;
+}
+
+.title .mini.text {
+    position: relative;
+    top: 2em;
+    font: 700 1em/1em 'RobotoDraft';
+    color: white;
+    opacity: .87;
+}
+
+.footer-container footer {
+    font-family: 'RobotoDraft', sans-serif;
+    font: 700 1em/1em 'RobotoDraft';
+    opacity: .87;
+}
+
+.main h1, h2{
+    opacity: .87
+}
+
+.main p {
+    font: 1em/1.5em 'Exo';
+}
+
+.main > aside {
+    color: white;
+}
+
+.main > aside > h3 {
+    position: relative;
+    padding: 0;
+    font: 700 1.5em/1.5em 'Exo';
+    opacity: .87;
+}
+
+.main > aside > p {
+    font: 1em/1.5em 'Exo';
+}
+
+nav .main-menu.item {
+    font-family: 'RobotoDraft', sans-serif;
+    font: 700 1.5em/1em 'RobotoDraft';
+    opacity: .87;
+}
+
+
+
+/* ==========================================================================
+   All min-width 479px
+   ========================================================================== */
+
+.title {
+    display: inline-block;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+    
+    nav .main-menu.item {
+        font: 700 1.25em/1em 'RobotoDraft';
+    }
+    
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0px 1.7%;
+        padding: 25px 2%;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+    
+    .title .mini.text {
+        position: relative;
+        top: 2em;
+        font: 700 1em/0em 'RobotoDraft';
+    }
+        
+    .title {
+        display: block;
+    }
+    
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .footer-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+    
+    .title .text {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+    
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+    .main > aside > h3 {
+        font: 700 2em/1.5em 'Exo';
+    }
+    
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
