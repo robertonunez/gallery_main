@@ -25,18 +25,25 @@ img {
 
 
 .demo-gallery {
+    display: block;
     width: 100%;
     height: auto;
     float: left;
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
 }
 
 .demo-gallery a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-touch-callout: none;
-    display: block;
-    float: left;
+    display: inline-block;
+    float: none;
     margin: 0 12px 12px 0;
     line-height: 0;
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
 }
 
 a.demo-gallery__img--main {
@@ -86,12 +93,6 @@ figure {
     background-origin: inherit;
     background-attachment: fixed;
     background-blend-mode: overlay;
-}
-
-.title {
-}
-
-body {
 }
 
 .create {
@@ -144,12 +145,12 @@ body {
         background-attachment: fixed;
         background-blend-mode: overlay;
     }
-
-    .title {
+    
+    .demo-gallery a {
+        float: left;
+        left: 25%;
     }
-
-    body {
-    }
+ 
 }
 
 @media only screen and (min-width: 768px) {
@@ -192,6 +193,12 @@ body {
         background-origin: inherit;
         background-attachment: fixed;
         background-blend-mode: overlay;
+    }
+    
+    .demo-gallery a {
+        transform: none;
+        position: relative;
+        left: 0;
     }
 }
 
