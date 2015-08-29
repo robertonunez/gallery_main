@@ -1,4 +1,57 @@
 
+img {
+    width: auto;
+    min-width: initial;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    box-shadow: 0 2px 5px #111;
+}
+
+.block__ui-separated {
+    position: relative;
+}
+
+.block__ui-separated .col-50 {
+    position: absolute;
+    left: 0;
+    top:12px;
+}
+
+.block__ui-separated img {
+    float: right;
+    max-width: 100%;
+}
+
+
+.demo-gallery {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.demo-gallery a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    display: block;
+    float: left;
+    margin: 0 12px 12px 0;
+    line-height: 0;
+}
+
+a.demo-gallery__img--main {
+    width: auto;
+    height: auto;
+}
+
+.demo-gallery figure {
+    display: none;
+}
+
+figure {
+    display: block;
+}
+
 .header-container {
     background-image: url("/img/simple_stripe_pattern-782.jpg"),
         linear-gradient(

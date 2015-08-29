@@ -51,6 +51,13 @@ textarea {
     padding: 0.2em 0;
 }
 
+.courtesy a {
+    color: black;
+    opacity: .87;
+    text-decoration: none;
+}
+
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
